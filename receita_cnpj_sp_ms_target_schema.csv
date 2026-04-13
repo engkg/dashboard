@@ -1,0 +1,49 @@
+coluna_final;origem;arquivo_oficial;campo_oficial;descricao
+cnpj;DERIVADO;Estabelecimentos;cnpj_basico + cnpj_ordem + cnpj_dv;CNPJ completo sem máscara
+cnpj_formatado;DERIVADO;Estabelecimentos;formatação do CNPJ completo;CNPJ com máscara ##.###.###/####-##
+cnpj_basico;Receita Federal;Estabelecimentos/Empresas/Simples;CNPJ BÁSICO;Base de 8 dígitos
+matriz_filial_codigo;Receita Federal;Estabelecimentos;IDENTIFICADOR MATRIZ/FILIAL;1 matriz, 2 filial
+matriz_filial_desc;DERIVADO;Estabelecimentos;IDENTIFICADOR MATRIZ/FILIAL;Texto: MATRIZ/FILIAL
+razao_social;Receita Federal;Empresas;RAZÃO SOCIAL / NOME EMPRESARIAL;Nome empresarial
+nome_fantasia;Receita Federal;Estabelecimentos;NOME FANTASIA;Nome fantasia
+natureza_juridica_codigo;Receita Federal;Empresas;NATUREZA JURÍDICA;Código
+natureza_juridica_desc;Receita Federal;Naturezas;DESCRIÇÃO;Descrição da natureza jurídica
+qualificacao_responsavel_codigo;Receita Federal;Empresas;QUALIFICAÇÃO DO RESPONSÁVEL;Código
+qualificacao_responsavel_desc;Receita Federal;Qualificacoes;DESCRIÇÃO;Descrição da qualificação
+capital_social;Receita Federal;Empresas;CAPITAL SOCIAL DA EMPRESA;Valor do capital social
+porte_codigo;Receita Federal;Empresas;PORTE DA EMPRESA;00, 01, 03, 05
+porte_desc;DERIVADO;Empresas;PORTE DA EMPRESA;Não informado / Micro / EPP / Demais
+ente_federativo_responsavel;Receita Federal;Empresas;ENTE FEDERATIVO RESPONSÁVEL;EFR
+situacao_cadastral_codigo;Receita Federal;Estabelecimentos;SITUAÇÃO CADASTRAL;01, 2, 3, 4, 08
+situacao_cadastral_desc;DERIVADO;Estabelecimentos;SITUAÇÃO CADASTRAL;Nula / Ativa / Suspensa / Inapta / Baixada
+data_situacao_cadastral;Receita Federal;Estabelecimentos;DATA SITUAÇÃO CADASTRAL;Data do evento
+motivo_situacao_cadastral_codigo;Receita Federal;Estabelecimentos;MOTIVO SITUAÇÃO CADASTRAL;Código
+motivo_situacao_cadastral_desc;Receita Federal;Motivos;DESCRIÇÃO;Descrição do motivo
+data_inicio_atividade;Receita Federal;Estabelecimentos;DATA DE INÍCIO ATIVIDADE;Data
+cnae_principal_codigo;Receita Federal;Estabelecimentos;CNAE FISCAL PRINCIPAL;Código
+cnae_principal_desc;Receita Federal;Cnaes;DESCRIÇÃO;Descrição do CNAE principal
+cnae_secundaria_codigos;Receita Federal;Estabelecimentos;CNAE FISCAL SECUNDÁRIA;Lista separada por vírgula
+tipo_logradouro;Receita Federal;Estabelecimentos;TIPO DE LOGRADOURO;Tipo
+logradouro;Receita Federal;Estabelecimentos;LOGRADOURO;Nome do logradouro
+numero;Receita Federal;Estabelecimentos;NÚMERO;Número
+complemento;Receita Federal;Estabelecimentos;COMPLEMENTO;Complemento
+bairro;Receita Federal;Estabelecimentos;BAIRRO;Bairro
+cep;Receita Federal;Estabelecimentos;CEP;CEP
+uf;Receita Federal;Estabelecimentos;UF;Sigla da UF
+municipio_codigo;Receita Federal;Estabelecimentos;MUNICÍPIO;Código do município
+municipio_nome;Receita Federal;Municipios;DESCRIÇÃO;Nome do município
+ddd1;Receita Federal;Estabelecimentos;DDD 1;DDD principal
+telefone1;Receita Federal;Estabelecimentos;TELEFONE 1;Telefone principal
+ddd2;Receita Federal;Estabelecimentos;DDD 2;DDD secundário
+telefone2;Receita Federal;Estabelecimentos;TELEFONE 2;Telefone secundário
+ddd_fax;Receita Federal;Estabelecimentos;DDD DO FAX;DDD do fax
+fax;Receita Federal;Estabelecimentos;FAX;Fax
+email;Receita Federal;Estabelecimentos;CORREIO ELETRÔNICO;Email
+situacao_especial;Receita Federal;Estabelecimentos;SITUAÇÃO ESPECIAL;Situação especial
+data_situacao_especial;Receita Federal;Estabelecimentos;DATA DA SITUAÇÃO ESPECIAL;Data
+opcao_simples;Receita Federal;Simples;OPÇÃO PELO SIMPLES;S/N/branco
+data_opcao_simples;Receita Federal;Simples;DATA DE OPÇÃO PELO SIMPLES;Data
+data_exclusao_simples;Receita Federal;Simples;DATA DE EXCLUSÃO DO SIMPLES;Data
+opcao_mei;Receita Federal;Simples;OPÇÃO PELO MEI;S/N/branco
+data_opcao_mei;Receita Federal;Simples;DATA DE OPÇÃO PELO MEI;Data
+data_exclusao_mei;Receita Federal;Simples;DATA DE EXCLUSÃO DO MEI;Data

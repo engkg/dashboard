@@ -1,0 +1,5 @@
+Coloque aqui o arquivo logo.png da Cocal/CNP.
+Nome exato do arquivo: logo.png
+Formato: PNG com fundo transparente
+Tamanho recomendado: largura máxima 280px, altura máxima 80px
+Ela aparecerá automaticamente no topo do menu lateral em todas as páginas.
